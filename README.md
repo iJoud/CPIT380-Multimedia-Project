@@ -20,5 +20,8 @@ Multimedia Editing Application, Includes Three Parts: Picture, Sound and Movie.
  - Background subtraction   
 ---------------------------------------------------------------------------------
 # Sound: 
+ - Change Volume (Create labelling ‘+ve’ and ‘-ve’ to control volume)
+ - Clipping a given sound (Define the segment first to be clipped.)
+
 ---------------------------------------------------------------------------------
 # Movie: 
