@@ -1085,7 +1085,7 @@ public class PictureFrame extends javax.swing.JFrame {
                 int y = j;
 
                 int[] pixels = new int[9];
-                int result = 0;
+                int result = 00;
 
                 result += (Pic2.getPixel(x - 1, y - 1).getRed()) * 1;
                 result += (Pic2.getPixel(x - 1, y).getRed()) * 1;
@@ -1122,10 +1122,11 @@ public class PictureFrame extends javax.swing.JFrame {
 
         if (x1 > 0 && x2 > 0) {
             Pic2.removeRedEye(x1, y1, x2, y2, Color.BLACK);
-            x1 = 0;
-            y1 = 0;
             x2 = 0;
             y2 = 0;
+            x1 = 0;
+            y1 = 0;
+
         } else {
             Pic2.removeRedEye(0, 0, Pic2.getWidth() - 1, Pic2.getHeight() - 1, Color.BLACK);
         }
@@ -1140,7 +1141,7 @@ public class PictureFrame extends javax.swing.JFrame {
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
 
-        if (x1 == 0 && y1 == 0 || !Clicked) {
+        if (!Clicked || x1 == 0 && y1 == 0 ) {
             x1 = evt.getX();
             y1 = evt.getY();
             Clicked = true;
