@@ -29,3 +29,4 @@ Multimedia Editing Application, Includes Three Parts: Picture, Sound and Movie.
  - Apply filters on sounds, just one is enough. For instance, averaging filter.
 ---------------------------------------------------------------------------------
 # Movie: 
+ - Create Rectangle Movie method, show it is moving from top left corner to bottom right, curved trajectory.
