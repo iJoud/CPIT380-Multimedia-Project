@@ -33,4 +33,4 @@ Multimedia Editing Application, Includes Three Parts: Picture, Sound and Movie.
  - Create Rectangle Movie Method Show the trajectory of motion, when a ball is dropped on the floor. Note that the dropped ball does not bounce back to same height and gradually comes to rest.
  - Create Ticker Tape Movie – A string of text moves back and forth and does not disappear from screen.
  - Create Sunset movie – Total change must be made by the user on runtime.
-
+ - Create Back Ground Subtraction Movie OR  Edge Detection Movie 
