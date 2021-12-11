@@ -208,6 +208,7 @@ public class MovieFrame extends javax.swing.JFrame {
             } else {
                 break;
             }
+            // Previous Ticker tape code
 //                g.drawString(message, (int) (i - 40) * (int) (frame.getWidth() * 0.01), (int) (frame.getHeight() - (frame.getHeight() / 4)));
 //            }
 //            if (i >= (framesPerSec * 2)) {
