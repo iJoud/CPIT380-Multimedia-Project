@@ -30,3 +30,6 @@ Multimedia Editing Application, Includes Three Parts: Picture, Sound and Movie.
 ---------------------------------------------------------------------------------
 # Movie: 
  - Create Rectangle Movie method, show it is moving from top left corner to bottom right, curved trajectory.
+ - Create Rectangle Movie Method Show the trajectory of motion, when a ball is dropped on the floor. Note that the dropped ball does not bounce back to same height and gradually comes to rest.
+ - Create Ticker Tape Movie – A string of text moves back and forth and does not disappear from screen.
+
