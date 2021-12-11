@@ -1505,7 +1505,7 @@ public class PictureFrame extends javax.swing.JFrame {
             Parray1.setColor(new Color(color, color, color));//set new color
         }
 
-        OutputPicture();
+        OutputPicture(); // written to display new image after each modification 
     }//GEN-LAST:event_HistogramActionPerformed
 
     private void PlottingHistogramActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlottingHistogramActionPerformed

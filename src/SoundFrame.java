@@ -406,7 +406,8 @@ public class SoundFrame extends javax.swing.JFrame {
         }
 
         // create silence between words by setting values to 0
-        for (int i = 0; i < 90000; i++, targetIndex++) {
+        int silentzone = 90000;
+        for (int i = 0; i < silentzone; i++, targetIndex++) {
             sound2.setSampleValueAt(targetIndex, 0);
         }
 
@@ -537,9 +538,7 @@ public class SoundFrame extends javax.swing.JFrame {
        sound.play(); 
     }//GEN-LAST:event_jButton9ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

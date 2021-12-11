@@ -135,7 +135,7 @@ public class Chromakey extends javax.swing.JFrame {
             for (int y = 0; y < height; y++) {
                 currPixel = Pic1.getPixel(x, y);
                 // In case the we want to subtract green background
-                if (currPixel.getRed() + currPixel.getBlue() < currPixel.getGreen()) {
+                if ( currPixel.getBlue() + currPixel.getRed() < currPixel.getGreen()) {
                     newPixel = Pic2.getPixel(x, y);
                     currPixel.setColor(newPixel.getColor());
                     continue;
@@ -152,7 +152,7 @@ public class Chromakey extends javax.swing.JFrame {
         resultPic.setIcon(new ImageIcon(Pic1.getImage().getScaledInstance(resultPic.getWidth(), resultPic.getHeight(), Image.SCALE_SMOOTH)));
 
         jLabel4.setFont(font);
-        jLabel4.setText(" Width = " + resultPic.getWidth() + "  , Height = " + resultPic.getHeight());
+        jLabel4.setText("Width = " + resultPic.getWidth() + " , Height = " + resultPic.getHeight());
 
     }//GEN-LAST:event_ChromakeyActionPerformed
 

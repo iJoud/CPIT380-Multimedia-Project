@@ -22,6 +22,11 @@ Multimedia Editing Application, Includes Three Parts: Picture, Sound and Movie.
 # Sound: 
  - Change Volume (Create labelling ‘+ve’ and ‘-ve’ to control volume)
  - Clipping a given sound (Define the segment first to be clipped.)
-
+ - Splicing at least two sounds together keeping the silent zone.
+ - Add a method to spread a sound of two sec over 4 seconds and then squeeze it over 1 second and play at the end. 
+ - Apply reversing and/or mirroring of sounds 
+ - Apply blending of two sounds.
+ - Apply filters on sounds, just one is enough. For instance, averaging filter.
 ---------------------------------------------------------------------------------
 # Movie: 
+ - Create Rectangle Movie method, show it is moving from top left corner to bottom right, curved trajectory.
