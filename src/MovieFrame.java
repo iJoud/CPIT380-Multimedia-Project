@@ -350,7 +350,9 @@ public class MovieFrame extends javax.swing.JFrame {
             g.fillRect((i * 2), (i * 5), 50, 50);
             frameSequencer.addFrame(p);
         }
-
+        /*
+        Merge first 2 points on the rubric
+        */
         int x = i * 2;
         int y = i * 5;
         for (int c = 0; c < 30; c++) {
