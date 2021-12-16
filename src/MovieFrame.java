@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 public class MovieFrame extends javax.swing.JFrame {
 
-    String dir = "testtt";
+    String dir = "testtt"; // to save frame 
     Picture frame = new Picture(600, 460);
     FrameSequencer frameSequencer
             = new FrameSequencer(dir);
